@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etUrl"
+            android:layout_weight="1"
+            android:hint="Введите Url"
+            android:inputType="textPersonName"
+            android:minHeight="52dp"
+            android:drawableLeft="@drawable/baseline_search_24"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGo"
+            android:backgroundTint="#0070C7"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:text="Go" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleHorizontal" />
+        <WebView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/webView"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

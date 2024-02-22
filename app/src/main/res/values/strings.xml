@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laba26</string>
+    <string name="app_loading_text_default1">Loading. Please wait…</string>
+    <string name="app_loading_text_default2">Loading…</string>
+    <string name="app_warning_text_no_internet">Please check your internet connection!</string>
+    <string name="app_warning_text_exit">Are you sure you want to exit?</string>
+    <string name="simple_appwidget_description">This widget can return you to your last seen link</string>
+    <string name="list_appwidget_description">This widget can return you to one of your last seen links</string>
+</resources>
